@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@vidyaflow/api": ["packages/api/index.ts"],
+      "@vidyaflow/ui": ["packages/ui/index.ts"],
+      "@vidyaflow/types": ["packages/types/index.ts"],
+      "@vidyaflow/utils": ["packages/utils/index.ts"],
+      "@vidyaflow/constants": ["packages/constants/index.ts"],
+      "@vidyaflow/hooks": ["packages/hooks/index.ts"],
+      "@vidyaflow/validation": ["packages/validation/index.ts"],
+      "@vidyaflow/config": ["packages/config/index.ts"],
+      "@vidyaflow/themes": ["packages/themes/index.ts"],
+      "@vidyaflow/icons": ["packages/icons/index.ts"],
+      "@vidyaflow/assets": ["packages/assets/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "build", ".next"]
+}
