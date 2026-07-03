@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-native",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@vidyaflow/api": ["../../packages/api/src/index.ts"],
+      "@vidyaflow/types": ["../../packages/types/src/index.ts"],
+      "@vidyaflow/utils": ["../../packages/utils/src/index.ts"],
+      "@vidyaflow/constants": ["../../packages/constants/src/index.ts"],
+      "@vidyaflow/validation": ["../../packages/validation/src/index.ts"]
+    }
+  },
+  "include": ["src", "app"]
+}

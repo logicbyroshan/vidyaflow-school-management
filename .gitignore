@@ -85,3 +85,20 @@ coverage/
 
 # ─── Docker ───────────────────────────────────────────────────────────────────
 docker-compose.override.yml
+
+# ─── Electron ─────────────────────────────────────────────────────────────────
+apps/desktop/out/
+apps/desktop/release/
+apps/desktop/dist-electron/
+
+# ─── Scripts (temp) ───────────────────────────────────────────────────────────
+scripts/*.temp.ps1
+scripts/*.bak
+
+# ─── macOS Extended Attributes ────────────────────────────────────────────────
+._*
+.AppleDouble
+
+# ─── Git Keep ─────────────────────────────────────────────────────────────────
+# Do NOT ignore .gitkeep files (they track intentionally empty directories)
+!.gitkeep

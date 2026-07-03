@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@vidyaflow/api": ["../../packages/api/src/index.ts"],
+      "@vidyaflow/ui": ["../../packages/ui/src/index.ts"],
+      "@vidyaflow/types": ["../../packages/types/src/index.ts"],
+      "@vidyaflow/utils": ["../../packages/utils/src/index.ts"],
+      "@vidyaflow/constants": ["../../packages/constants/src/index.ts"],
+      "@vidyaflow/hooks": ["../../packages/hooks/src/index.ts"]
+    }
+  },
+  "include": ["src", "electron", "vite.config.ts"]
+}

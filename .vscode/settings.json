@@ -21,7 +21,7 @@
     }
   },
   "python.analysis.typeCheckingMode": "basic",
-  "python.defaultInterpreterPath": "./apps/backend/.venv/bin/python",
+  "python.defaultInterpreterPath": "${workspaceFolder}/apps/backend/.venv/Scripts/python",
   "turboConsole.prefix": "[VidyaFlow]",
   "search.exclude": {
     "**/node_modules": true,

@@ -4,15 +4,14 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@vidyaflow/api": ["../../packages/api/index.ts"],
-      "@vidyaflow/ui": ["../../packages/ui/index.ts"],
-      "@vidyaflow/types": ["../../packages/types/index.ts"],
-      "@vidyaflow/utils": ["../../packages/utils/index.ts"],
-      "@vidyaflow/constants": ["../../packages/constants/index.ts"],
-      "@vidyaflow/hooks": ["../../packages/hooks/index.ts"],
-      "@vidyaflow/validation": ["../../packages/validation/index.ts"]
+      "@vidyaflow/api": ["../../packages/api/src/index.ts"],
+      "@vidyaflow/ui": ["../../packages/ui/src/index.ts"],
+      "@vidyaflow/types": ["../../packages/types/src/index.ts"],
+      "@vidyaflow/utils": ["../../packages/utils/src/index.ts"],
+      "@vidyaflow/constants": ["../../packages/constants/src/index.ts"],
+      "@vidyaflow/hooks": ["../../packages/hooks/src/index.ts"],
+      "@vidyaflow/validation": ["../../packages/validation/src/index.ts"]
     }
   },
-  "include": ["src", "vite.config.ts"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "vite.config.ts"]
 }
